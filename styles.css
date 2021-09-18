@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
     background-color: rgb(236, 234, 234);
 }
 
@@ -122,14 +122,14 @@ body{
     border-radius: 1rem;
     padding: 1rem;
     width: 490px;
-    height: 22vh;
+    height: 24vh;
 }
 
 .job-list-gray{
     background-color: rgb(194, 190, 190);
     border-radius: 1rem;
     width: 120px;
-    height: 110px;
+    height: 125px;
 }
 
 .job-list-desc{
@@ -147,7 +147,6 @@ body{
 .job-list-desc button{
     float:right;
     margin-right: 1rem;
-    margin-top: 0.5rem;
     width: 90px;
     height: 4vh;
     border: 2px solid  rgb(224, 114, 133);
@@ -268,13 +267,13 @@ body{
         margin-bottom: 1.5rem;
         justify-content: center;
         max-width: 310px;
-        height: 19vh;
+        height: 25vh;
     }
 
     .job-list-gray{
         background-color: rgb(194, 190, 190);
-        width: 185px;
-        height:90px;
+        width: 250px;
+        height:110px;
     }
 
     .job-list-desc{
@@ -282,11 +281,11 @@ body{
     }
 
     .job-list-desc h3{
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .job-list-desc p{
-        padding-top: 0.2rem;
+        padding-top: 0rem;
         font-size: 11px;
     }
 
