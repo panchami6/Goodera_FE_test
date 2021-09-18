@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 234, 234);
+}
+
+.nav-bar{
+    background-image: linear-gradient(to right, rgb(57, 111, 173), rgb(67, 123, 185) , rgb(45, 157, 221));
+    color: white;
+    height: 230px ;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.nav-list-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+    padding: 1.5rem 4rem 3rem 5rem;
+    list-style: none;
+}
+
+.job-hunt{
+    font-weight: bold;
+}
+
+.find-jobs{
+    text-decoration: underline;
+}
+
+.nav-list li{
+    padding-right: 2rem;
+    font-size: 14px;
+}
+
+.nav-heading{
+    padding-left: 5rem;
+    font-size: 34px;
+}
+
+.nav-subHeading{
+    padding-left: 5rem;
+}
+
+.parent{
+    position: relative;
+}
+
+.search-bar{
+    position: absolute;
+    top: 200px;
+    left: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(223, 220, 220);
+    box-shadow: rgb(192, 191, 191) 0px 3px 10px;
+    border-radius: 1rem;
+    height: 10vh;
+    width: 75%;
+    padding: 0rem 1rem;
+    background-color: white;
+    color: gray;
+    font-size: 14px;
+}
+
+.search{
+    display: flex;
+}
+
+.search p{
+    padding-left: 0.5rem;
+    padding-top: 5px;
+}
+
+.search-icon{
+    height: 25px;
+}
+
+.down-arrow{
+    padding-left: 5rem;
+    cursor: pointer;
+}
+
+.search-bar button{
+    background-color: rgb(224, 114, 133);
+    width: 180px;
+    border: none;
+    border-radius: 0.3rem;
+    height: 6vh;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.jobs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    padding-left: 10.5rem;
+    padding-top: 2rem;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+.job-list{
+    display: flex;
+    background-color: white;
+    box-shadow: rgb(192, 191, 191) 0px 3px 10px;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 490px;
+    height: 22vh;
+}
+
+.job-list-gray{
+    background-color: rgb(194, 190, 190);
+    border-radius: 1rem;
+    width: 120px;
+    height: 110px;
+}
+
+.job-list-desc{
+    width: 400px;
+    padding-left: 1rem;
+    padding-top:0.5rem;
+    font-size: 13px;
+}
+
+.job-list-desc p{
+    padding-top: 0.5rem;
+    color: gray;
+}
+
+.job-list-desc button{
+    float:right;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    width: 90px;
+    height: 4vh;
+    border: 2px solid  rgb(224, 114, 133);
+    border-radius: 0.5rem;
+    background-color: white;
+    color: rgb(224, 114, 133);
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav-bar{
+        height: 150px ;
+        width: 85%;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+    
+    .nav-list-main{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-list{
+        display: flex;
+        padding: 0px;
+        font-size: 6px;
+        /* padding: 1.5rem 4rem 3rem 5rem; */
+        list-style: none;
+    }
+    
+    .job-hunt{
+        font-weight: bold;
+    }
+    
+    .find-jobs{
+        text-decoration: underline;
+    }
+    
+    .nav-list li{
+        padding-right: 0.5rem;
+        font-size: 9px;
+    }
+    
+    .nav-heading{
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        font-size: 20px;
+    }
+    
+    .nav-subHeading{
+        padding-left: 1rem;
+        font-size: 12px;
+    }
+
+    .search-bar{
+        position: absolute;
+        top: 128px;
+        left: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid rgb(223, 220, 220);
+        box-shadow: rgb(192, 191, 191) 0px 3px 10px;
+        border-radius: 1rem;
+        height: 7vh;
+        width: 75%;
+        padding: 0rem 0.5rem;
+        background-color: white;
+        color: gray;
+        font-size: 11px;
+    }
+
+    .search-bar .location{
+        padding-top: 3px;
+        padding-left: 25px;
+        cursor: pointer;
+    }
+    
+    .search{
+        display: flex;
+    }
+    
+    .search p{
+        padding-left: 0.5rem;
+        padding-top: 0px;
+    }
+    
+    .search-icon{
+        height: 25px;
+        padding-top: 10px;
+    }
+    
+    .down-arrow{
+        padding-left: 5rem;
+        cursor: pointer;
+    }
+    
+    .search-bar button{
+        background-color: rgb(224, 114, 133);
+        width: 80px;
+        border: none;
+        border-radius: 0.3rem;
+        height: 3vh;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .jobs{
+        display: block;
+        padding-left: 1.5rem;
+    }
+
+    .job-list{
+        display: flex;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+        max-width: 310px;
+        height: 19vh;
+    }
+
+    .job-list-gray{
+        background-color: rgb(194, 190, 190);
+        width: 185px;
+        height:90px;
+    }
+
+    .job-list-desc{
+        padding-top:0rem;
+    }
+
+    .job-list-desc h3{
+        font-size: 14px;
+    }
+
+    .job-list-desc p{
+        padding-top: 0.2rem;
+        font-size: 11px;
+    }
+
+    .job-list-desc button{
+        margin-right: 0.2rem;
+        margin-top: 0.2rem;
+        font-size: 11px;
+        width: 70px;
+        height: 3vh;
+        border: 1px solid  rgb(224, 114, 133);
+    }
+
+}
